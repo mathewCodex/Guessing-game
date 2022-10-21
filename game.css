@@ -1,0 +1,50 @@
+* {
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #142011;
+}
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+}
+/* main {
+} */
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color:white;
+}
+.number {
+  background: #eee;
+  color: rgb(251, 245, 245);
+  font-size: 6rem;
+  width: 15rem;
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+p{
+  color:whitesmoke;
+  font-size:2rem;
+}
+input{
+  width:20vw;
+  height: 3vh;
+  border:1px solid grey;
+  border-radius: 5px;
+}
